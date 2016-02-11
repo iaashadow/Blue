@@ -15,4 +15,5 @@ get("/game/:option")
 
 		session["correct_answers"] = 0
 		@used = []
-		
+	else 
+		session[""]

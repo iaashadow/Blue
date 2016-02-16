@@ -1,0 +1,35 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-6">
+      <p>
+        This is how many question's you've got right:
+        <%= session["correct_answers"] %>
+      </p>
+      <p>
+        You've missed:
+        <%= session["missed"] %>
+      </p>
+      <pre>
+        <%= HOLIDAY[session["currentq"]] %>
+      </pre>
+      <form action="/submission" method="post">
+        <label>Please choose one of the answers below</label>
+        <% @choices.each do |choice| %>
+          <div class="form-group">
+            <div class="radio">
+              <label>
+                <input type="radio" name="guess" value="<%= choice %>"> </input>
+                <%= choice %>
+              </label>
+            </div>
+          </div>
+        <% end %>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+    </div>
+    <div class="col-md-3"></div>
+  </div>
+</div>

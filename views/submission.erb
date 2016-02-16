@@ -1,0 +1,36 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-6">
+      <p>
+        Your current score is:
+        <%= session["correct_answers"] %>
+      </p>
+      <p>
+        You've missed:
+        <%= session["missed"] %>
+      </p>
+      <% if @correct %>
+        <h1>You got it correct</h1>
+      <% else %>
+        <h1>You got it wrong</h1>
+      <% end %>
+      <% if session["correct_answers"] >= 5 %>
+      	<p> and you won! </p>
+      	<a href="/game/new"><button>New Game</button></a>
+        <a href="/"><button>Home</button></a>
+      <% elsif session["missed"] >= 3 %>
+      	<p> and you lost :( </p>
+      	<a href="/"><button>New Game</button></a>
+        <a href="/"><button>Home</button></a>
+      	<% else %>
+      <a href="/game/next"><button>Next Round</button></a>
+      <a href="/"><button>Home</button></a>
+      <% end %>
+    </div>
+    <div class="col-md-3"></div>
+  </div>
+</div>

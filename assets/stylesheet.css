@@ -1,0 +1,32 @@
+div>h1, div>h2, div>h3, div>h1>strong {
+	color: #224649;
+}
+
+div>h3>strong {
+	font-style: 
+}
+
+div p {
+	color: #33656b;
+}
+
+div>ul>li {
+	color: 
+}
+
+.bg {
+	color: #eaeaea;
+}
+
+.jumbotron {
+	color: #427f87;
+	padding: 125px;
+}
+
+.date {
+	color: darkred;
+}
+
+.panel {
+	padding: 7px;
+}

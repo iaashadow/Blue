@@ -12,9 +12,9 @@
         You've missed:
         <%= session["missed"] %>
       </p>
-      <pre>
+        <pre>
         <%= HOLIDAY[session["currentq"]] %>
-      </pre>
+        </pre>
       <form action="/submission" method="post">
         <label>Please choose one of the answers below</label>
         <% @choices.each do |choice| %>

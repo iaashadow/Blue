@@ -20,14 +20,14 @@
       <% end %>
       <% if session["correct_answers"] >= 5 %>
       	<p> and you won! </p>
-      	<a href="/game/new"><button>New Game</button></a>
+      	<a href="/quiz/new"><button>New Game</button></a>
         <a href="/"><button>Home</button></a>
       <% elsif session["missed"] >= 3 %>
       	<p> and you lost :( </p>
       	<a href="/"><button>New Game</button></a>
         <a href="/"><button>Home</button></a>
       	<% else %>
-      <a href="/game/next"><button>Next Round</button></a>
+      <a href="/quiz/next"><button>Next Round</button></a>
       <a href="/"><button>Home</button></a>
       <% end %>
     </div>

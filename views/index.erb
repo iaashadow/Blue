@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Home | American Holidays</title>
+	<title>Home | American Holidays</title>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="assets/stylesheet.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+	<link href="<%= url('/bootstrap.css') %>" rel="stylesheet" type="text/css" />
+  <link href="<%= url('/stylesheet.css') %>" rel="stylesheet" type="text/css" />
 </head>
 <body class="bg">
 
@@ -18,15 +18,16 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="index.erb"><abbr title="(syrian 'home')">Home<abbr></a></li>
-        <li><a href="#"><abbr title="(syrian 'quiz')">Quiz<abbr></a></li>
-        <li><a href="vocab.erb"><abbr title="(syrian 'vocabulary')">Vocabulary<abbr></a></li>
+        <li><a href="/"><abbr title="(syrian 'home')">Home<abbr></a></li>
+        <li><a href="quiz/new"><abbr title="(syrian 'quiz')">Quiz<abbr></a></li>
+        <li><a href="/vocab"><abbr title="(syrian 'vocabulary')">Vocabulary<abbr></a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
 
-<div class="jumbotron bluejumbo">
+<!--jumbotron-->
+<div class="jumbotron">
  <br>
   <h1><strong>Welcome!</strong></h1>
   <br>
@@ -39,41 +40,22 @@
 
 <!--col 1-->
  <div class="col-md-4">
-  <div class="page-header">
+	<div class="page-header">
   <h2>Our Purpose <small>(syrian 'xxx')</small></h2>
  </div>
-<<<<<<< HEAD
-
- <p> This is a temporary quiz link </p>
-
- <a href="/quiz/new"><button>New Quiz</button></a>
-
-<p> Here is a temporary link to an information page </p>
-
-<a href="/vocab"><button>Learn about holidays!</button></a>
-
-=======
-  <p>By creating this site, we hope to teach you about holidays celebrated in America, and how long the breaks for each holiday usually last.  </p>
+	<p>By creating this site, we hope to teach you about holidays celebrated in America, and how long the breaks for each holiday usually last.  </p>
   <br>
   <p>syrian syrian syrian syrian syrian syrian syrian syrian syrian syrian syrian syrian syrian syrian syrian syrian syrian syrian syrian </p>
->>>>>>> b6d9fce601b0dfc97b0a555acaff3d9f5056de18
 </div>
 
 <!--col 2-->
  <div class="col-md-4">
-  <div class="page-header">
-  <h2>xxx <small>(syrian 'xxx')</small></h2>
+	<div class="page-header">
+  <h2>How To Navigate <small>(syrian 'xxx')</small></h2>
  </div>
-  <p>dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot dot </p>
-</div>
-
-<!--col 3-->
- <div class="col-md-4">
-  <div class="page-header">
-  <h2>xxx <small>(syrian 'xxx')</small></h2>
- </div>
-  <p>filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler filler </p>
+	<p>To switch between different parts of the site, please look to the gray bar at the top. </p>
 </div>
 
 </body>
 </html>
+

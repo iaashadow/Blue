@@ -10,6 +10,12 @@ get("/") do
 
 end
 
+get("/vocab") do
+
+erb :vocab
+
+end
+
 get("/quiz/:option") do
 
 	if params["option"] == "new"

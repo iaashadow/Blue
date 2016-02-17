@@ -1,10 +1,10 @@
 HOLIDAY = {
 	"Christmas" => "This is a holiday in the christian calendar celebrating the birth of Jesus. 
-	It is often celebrated by non christians by giving gifts to family members and friends. Falls on December 25
-	هذا هو يوم عطلة في التقويم المسيحي يحتفل بميلاد المسيح   . وغالبا ما يحتفل به غير المسيحيين من خلال إعطاء الهدايا لأفراد العائلة والأصدقاء . يصادف يوم 25 كانون الأول",
+	It is often celebrated by non christians by giving gifts to family members and friends. Falls on December 25",
 
-	"New year's day" => "This holiday is celebrated in beginning of the year, there are often fireworks. Jan 1
-	",
+	"April Fool's Day" => "This holiday is 'celebrated' by playing practical jokes on friends or family.",
+
+	"New year's day" => "This holiday is celebrated in beginning of the year, there are often fireworks. Jan 1",
 
 	"Martin Luther King JR. day" => "This holiday celebrates the birthday of the leader of the Civil rights movement, 
 	which was a movement to get equal civil rights for all people in America. Jan 18
@@ -13,10 +13,10 @@ HOLIDAY = {
 	"Valentine's day" => "A day where people celebrate their loved ones or significant others. Feb 14
 	",
 
-	"Presidents' day" => "A day where we celebrate some of our best Presidents, George Washington and Abraham Linconln. Feb 15
+	"Presidents' day" => "A day where we celebrate some of our best Presidents, George Washington and Abraham Lincoln. Feb 15
 	",
 
-	"Daylight savings time" => "Daylights Savings time is a time in between Spring and Fall where the clocks are pushed an hour back. 
+	"Daylight savings time" => "This is a time in between Spring and Fall where the clocks are pushed an hour back. 
 	It starts the second week of March and ends on the first week on November.
 	",
 

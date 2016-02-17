@@ -1,0 +1,41 @@
+div>h1, div>h2, div>h3, {
+	color: #224649;
+}
+
+div>h1>strong {
+	color: ;
+}
+
+div>h3>strong {
+	font-style: 
+}
+
+div p {
+	color: #33656b;
+}
+
+div>ul>li {
+	color: 
+}
+
+.bg {
+	color: #eaeaea;
+}
+
+.date {
+	color: darkred;
+}
+
+.panel {
+	padding: 7px;
+}
+
+.jumbotron {
+	position: relative;
+	background:#000 url("https://upload.wikimedia.org/wikipedia/commons/d/d9/Atlanta_Downtown_Skyline.jpg") center center;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	overflow: hidden;
+
+}
